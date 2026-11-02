@@ -1,4 +1,4 @@
-# Training and development source
+# Craniofacial representation learning: training and evaluation for rare disease diagnosis
 
 This tree contains the first-party executable research source used during model development. Directory dates identify experimental iterations. The selected route is **TransFace-L → CHOP patient-identity ArcFace adaptation → GMDB disease ArcFace fine-tuning → HPO modeling and gated cross-attention diagnosis**. Earlier DINO/SSL experiments and alternative fusion methods are included as development history, not interchangeable stages of that route.
 
