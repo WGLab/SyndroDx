@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+weights/
+outputs/
+*.pt
+*.pth
+*.onnx
+*.npz
+*.npy
+*.tar.gz
+.env
+.env.*

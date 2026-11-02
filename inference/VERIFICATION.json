@@ -1,0 +1,38 @@
+{
+  "numerical_parity": {
+    "state": "passed",
+    "synthetic_inputs_only": true,
+    "patient_records_or_images_accessed": false,
+    "visual_max_abs_error": 0.0,
+    "routing_cases_checked": 12,
+    "diagnosis_max_abs_error": 0.0,
+    "HPO_retrieval_embedding_max_abs_error": 0.0,
+    "RGB_normalization_checked": true,
+    "unknown_HPO_exclusion_checked": true,
+    "conflicting_HPO_rejected": true,
+    "HPO_limit_checked": true,
+    "retrieval_self_exclusion_and_pairwise_fallback_checked": true,
+    "device": "CPU",
+    "precision": "FP32"
+  },
+  "portable_command_test": {
+    "state": "passed",
+    "relocated_bundle": true,
+    "external_working_directory": true,
+    "synthetic_patients": 4,
+    "synthetic_gallery_cases": 2,
+    "patient_data_used": false,
+    "multi_image_patient_checked": true,
+    "three_modality_outputs_checked": true,
+    "missing_modality_routes_checked": true,
+    "retrieval_checked": true,
+    "overwrite_rejected": true,
+    "device": "CPU",
+    "python": "3.11.13",
+    "torch": "2.8.0+cu128",
+    "numpy": "2.1.2",
+    "opencv": "4.11.0",
+    "fresh_dependency_install_tested": false,
+    "GPU_execution_tested": false
+  }
+}

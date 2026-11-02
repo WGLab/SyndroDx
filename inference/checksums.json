@@ -1,0 +1,16 @@
+{
+  "README.md": "88dfd5405d361c5a54c9c2dea982d77ea7abbd95a7012ff9828a24d09e1b6a38",
+  "run.sh": "f0b5664195a608518fa279c9171edb589bf5164db66fa7e6b6a4a918ac813c9d",
+  "requirements.txt": "8a293e4e09655b82e0c0ad55bc9c9e8cd4d94aea7e2638bb22dd916d69acd99b",
+  "predict.py": "0f4987723c9ad3bf4f1babf536ab0571b113deabee8404b52edcfd2ce1aae892",
+  "networks.py": "6ce978439eed933e54d5cd7fcf748ae4e4e2f166446f363f49370ea365c1c2b3",
+  "config.json": "1ac5cd591dd3374038faa27c49595a2eac3af5081aecf40f7fcd324a784a2f4a",
+  "VERIFICATION.json": "d963775c279eb240c4659d41db55e972b6b3cdf5f2bf9d1a38d9a91b2616b2ce",
+  "assets/diseases.json": "f271601e1648dededfbd21345e7ed7c349e40ba4c2d9c418ed4ef50a0644326b",
+  "assets/term_index.json": "4c93360c05ca9fb7c63e936d12f4f59463b9c514e1ca5beddb2084ba05b4b45c",
+  "examples/cases.jsonl": "c164384c55643570b0ac067865ced975c080e383b939efd39ca2a9086dedb592",
+  "weights/visual.pt": "ea1ada6c47ab919972fb4b5df48ef613fb5be1abe045e913de52395e93f1cf35",
+  "weights/visual_head.pt": "52986b0fc05fb21eb28bf91d4669a5fdca5173ed3c794669a5e7a4ba112f0095",
+  "weights/hpo.pt": "c99578c3d39a715c1905e01ecbe24f4fdb1879c5bbc1c782a92c5b70a88dc375",
+  "weights/fusion.pt": "26cb717252308a7f38fe2c0a2b13d27b4b24a5681338d385d81780cfa13fb370"
+}
