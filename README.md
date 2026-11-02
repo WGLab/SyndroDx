@@ -6,7 +6,15 @@ The visual encoder follows TransFace-L → CHOP patient-identity ArcFace adaptat
 
 ## Current release
 
-This initial code release provides the frozen evaluation implementation: image preprocessing, patient-level aggregation, three modality comparisons, and optional local-gallery retrieval. Training orchestration and the experimental agent and variant modules are not included in this release.
+The repository includes the frozen evaluation implementation and the research source used to develop it: data inventory, facial annotation and cropping, DINO/SSL experiments, TransFace/ArcFace adaptation, disease fine-tuning, HPO and multimodal training, matched evaluation, multi-seed controls, and experimental evidence-acquisition and variant modules.
+
+- **[Research workflow and training entry points](research/README.md)** — stage-by-stage guide and the selected checkpoint lineage.
+- **[Full source index](research/SOURCE_INDEX.md)** — historical experiments, tests and scheduler scripts.
+- **[Training parameters](research/TRAINING_PARAMETERS.json)** — numeric hyperparameters extracted through an explicit field allowlist.
+- **[Reproduction requirements](research/REPRODUCTION.md)** — local data contracts, dependencies and deployment configuration.
+- **[Frozen inference](inference/README.md)** — the independently runnable evaluation package.
+
+The research tree preserves dated experimental directories so that final methods can be distinguished from alternatives and diagnostics. It is a source archive with site-neutral path placeholders; running historical training requires locally authorized data, regenerated configuration/provenance files and a configured compute environment. Historical runtime JSON/YAML and derived metadata remain local. The experimental agent and variant code is separate from the frozen inference checkpoint.
 
 The default is seed 11, with 216 diagnostic candidates. Inputs without eligible HPO use the visual branch; inputs without facial images use the HPO branch. If neither modality is usable, the model abstains. Predictions are closed-set model scores, not calibrated clinical probabilities.
 
